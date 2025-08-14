@@ -1,0 +1,36 @@
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+.results/ipynb_checkpoints/
+
+# PyCharm project settings
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment & credentials
+.env
+*.env
+
+# Logs
+*.log
+
+# Build / distribution folders
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
