@@ -34,44 +34,7 @@ It combines ACO's broad search ability with GridSearchCV's fine-tuning skills to
 The result is smarter, more accurate models, guided by the same principles that power nature.
 
 # Project Structure:
-Metaheuristic_Optimization_for_Logistic_Regression/
-│
-├── .gitignore
-├── README.md
-├── requirements.txt
-├── project.png
-│
-├── data/
-│   ├── data.csv                  # Original datasets
-│
-├── notebooks/
-│   ├── 01_data_loading_and_exploration.ipynb
-│   ├── 02_data_preprocessing_and_feature_scaling.ipynb
-│   ├── 03_baseline_logistic_regression_model.ipynb
-│   ├── 04_hyperparameter_tuning_with_gridsearchcv.ipynb
-│   ├── 05_metaheuristic_optimization_pso.ipynb
-│   ├── 06_metaheuristic_optimization_aco.ipynb
-│   ├── 07_hybrid_optimization_approach.ipynb
-│   └── 08_final_comparison_and_insights.ipynb
-│
-├── results/
-│   ├── model_performance.csv
-│   ├── images/
-│   │   ├── accuracy_vs_time.png
-│   │   ├── ACO_confusion_matrix.png
-│   │   ├── Hybrid_confusion_matrix.png
-│   │   └── PSO_confusion_matrix.png
-│
-├── scripts/
-│   ├── generate_results.py      # execution script produces results                   
-│   ├── aco_optimizer.py
-│   ├── pso_optimizer.py
-│   └── hybrid_optimizer.py
-│
-├── tests/
-     ├── test_aco.py
-     ├── test_hybrid.py
-     └── test_pso.py
+![project structure.png](project%20structure.png)
 
 # Installation:
 Clone the repo and install dependencies:
@@ -99,10 +62,7 @@ All output will be saved in the results/ folder, including:
 3. Hybrid: ACO for exploration → GridSearch for fine-tuning
 
 # Results:
-Optimizer	Best_C		Accuracy
-PSO		    6.279		0.9825
-ACO		    33.34		0.9825
-Hybrid		9.12		0.9825
+![result.png](results%2Fresult%2Fimages%2Fresult.png)
 The hybrid optimizer provides consistent and stable results by refining ACO's exploration via grid search.
 
 # 📦 Dependencies

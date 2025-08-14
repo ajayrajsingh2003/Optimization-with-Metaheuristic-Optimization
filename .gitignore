@@ -34,3 +34,8 @@ dist/
 # Temporary files
 *.tmp
 *.temp
+.requirements.txt
+.project structure.png
+.project.png
+.Presentation/
+readme.md
