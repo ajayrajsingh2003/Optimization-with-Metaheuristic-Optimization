@@ -34,7 +34,7 @@ It combines ACO's broad search ability with GridSearchCV's fine-tuning skills to
 The result is smarter, more accurate models, guided by the same principles that power nature.
 
 # Project Structure:
-![project structure.png](assets%2Fproject%20structure.png)
+![project structure.png](assets%2Fproject%20structure.png)<br>
 
 # Installation:
 Clone the repo and install dependencies:<br>
