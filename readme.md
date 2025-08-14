@@ -1,7 +1,7 @@
-# Metaheuristic Optimization for Logistic Regression:
+# Metaheuristic Optimization for Logistic Regression
 Optimize logistic regression hyperparameters using Particle Swarm Optimization (PSO), Ant Colony Optimization (ACO), and a Hybrid ACO + GridSearchCV approach to improve classification performance.
 
-Dataset: Breast Cancer Wisconsin (Diagnosis)
+Dataset: Breast Cancer Wisconsin (Diagnosis)<br>
 Goal: Achieve optimal accuracy by tuning the regularization parameter (C) of Logistic Regression.
 
 # Featured and Presented at Symposium 2024 (Saint Peter's University)
@@ -23,7 +23,7 @@ Goal: Achieve optimal accuracy by tuning the regularization parameter (C) of Log
 6. Lightweight and reproducible
  
 # How it Works
-![project.png](project.png)
+![project.png](assets%2Fproject.png)<br>
 In nature, optimization is key to survival. Ants discover food by laying down pheromone trails—this inspires Ant Colony Optimization (ACO),
 where better paths are reinforced over time. Birds fly in flocks,
 constantly adjusting based on their own and their neighbors’ positions—this forms the idea behind Particle Swarm Optimization (PSO),
@@ -34,38 +34,33 @@ It combines ACO's broad search ability with GridSearchCV's fine-tuning skills to
 The result is smarter, more accurate models, guided by the same principles that power nature.
 
 # Project Structure:
-![project structure.png](project%20structure.png)
+![project structure.png](assets%2Fproject%20structure.png)
 
 # Installation:
-Clone the repo and install dependencies:
-git clone https://github.com/yourusername/Metaheuristic_Optimization_for_Logistic_Regression.git
-cd Metaheuristic_Optimization_for_Logistic_Regression
+Clone the repo and install dependencies:<br>
+git clone https://github.com/yourusername/Metaheuristic_Optimization_for_Logistic_Regression.git <br>
+cd Metaheuristic_Optimization_for_Logistic_Regression <br>
 pip install -r requirements.txt
 
-# ▶️ How to Run:
-Run the main script to execute all three optimizers and visualize results:
-python generate_results.py
-All output will be saved in the results/ folder, including:
+# How to Run:
+Run the main script to execute all three optimizers and visualize results:<br>
+python generate_results.py<br>
+All output will be saved in the results/ folder, including:<br>
 1. Accuracy scores
-
 2. Best C values
-
 3. Confusion matrices
-
 4. Execution time charts
 
 # Algorithms Used:
 1. PSO: Particles adjust based on personal & global best scores
-
 2. ACO: Simulates ant behavior via pheromone updates
-
 3. Hybrid: ACO for exploration → GridSearch for fine-tuning
 
 # Results:
-![result.png](results%2Fresult%2Fimages%2Fresult.png)
+![result.png](results%2Fresult%2Fimages%2Fresult.png)<br>
 The hybrid optimizer provides consistent and stable results by refining ACO's exploration via grid search.
 
-# 📦 Dependencies
+# Dependencies
 1. Python 3.7+
 2. numpy
 3. pandas
@@ -84,6 +79,6 @@ python test_aco_optimizer.py
 # Contributing
 Pull requests are welcome! For major changes, please open an issue first.
 
-# 📧 Contact
+# Contact
 Created with ❤️ by Ajay Raj Singh
 Feel free to connect on LinkedIn or open issues for suggestions!
